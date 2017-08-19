@@ -99,3 +99,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+.vscode/extensions.json
+.vscode/settings.json
