@@ -22,5 +22,5 @@ Build and run a full Kaggle Jupyter/Python environment
 **Tips:**
   - In order to have the commands in the section above persistently available:
       - `cat ./kaggle-python.run >> ~/.bash_aliases`
-      - or if you use oh-my-zsh:
-        - `cp ./kaggle-python.run ~/.oh-my-zsh/custom/kaggle-python.zsh`
+      - or `cp ./kaggle-python.run ~/.oh-my-zsh/custom/kaggle-python.zsh`
+      (if you use oh-my-zsh)
