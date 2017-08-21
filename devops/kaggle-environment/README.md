@@ -20,7 +20,7 @@ Run:
     `kbash`: A Bash Shell
 
 Tips:
-  `cat ./kaggle-python.run >> ~/.bash_aliases`
-  or if you use oh-my-zsh:
-    `cp ./kaggle-python.run ~/.oh-my-zsh/custom/kaggle-python.zsh`
-
+  In order to have the commands in the section above persistently available:
+      `cat ./kaggle-python.run >> ~/.bash_aliases`
+      or if you use oh-my-zsh:
+        `cp ./kaggle-python.run ~/.oh-my-zsh/custom/kaggle-python.zsh`
