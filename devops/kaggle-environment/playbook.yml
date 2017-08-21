@@ -1,0 +1,7 @@
+---
+- name: create a non-root user
+  hosts: all
+  user: root
+  tasks:
+    - user:
+        name: kuser

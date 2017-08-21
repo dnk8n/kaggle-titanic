@@ -1,0 +1,12 @@
+kpython(){
+  docker run -v $PWD:/tmp/working -w=/tmp/working --rm -it dnk8n/kaggle-python:latest python
+}
+ikpython() {
+  docker run -v $PWD:/tmp/working -w=/tmp/working --rm -it dnk8n/kaggle-python:latest ipython
+}
+kjupyter() {
+  docker run -v $PWD:/tmp/working -w=/tmp/working -p 8888:8888 --rm -it dnk8n/kaggle-python:latest jupyter notebook --no-browser --ip=0.0.0.0 --notebook-dir=/tmp/working
+}
+kbash() {
+  docker run -v $PWD:/tmp/working -w=/tmp/working -p 8888:8888 --rm -it dnk8n/kaggle-python:latest
+}
