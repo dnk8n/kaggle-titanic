@@ -2,9 +2,13 @@
 Build and run a full Kaggle Jupyter/Python environment
 
 **Dependencies:**
- - Packer
- - Ansible
- - Docker
+ - Packer (see https://www.packer.io/docs/install/index.html)
+ ```
+ curl -O https://releases.hashicorp.com/packer/1.1.0/packer_1.1.0_linux_amd64.zip
+ unzip packer_1.1.0_linux_amd64.zip -d /usr/local/bin
+ ```
+ - Docker (see https://docs.docker.com/engine/installation/)
+ - Ansible (see http://docs.ansible.com/ansible/latest/intro_installation.html)
 
 **Build:**
   - `. ./kaggle-python.build`
